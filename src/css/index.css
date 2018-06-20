@@ -1,0 +1,16 @@
+/*
+* @Author: yongze-chen
+* @Date:   2018-06-19 14:09:23
+* @Last Modified by:   yongze-chen
+* @Last Modified time: 2018-06-19 14:34:51
+*/
+ li {
+    list-style: none;
+ }
+
+ .img {
+    width: 200px;
+    height: 200px;
+    background: url('../images/1.jpg');
+    background-size: cover;
+ }
