@@ -1,8 +1,8 @@
 /*
 * @Author: yongze-chen
 * @Date:   2018-06-19 13:26:47
-* @Last Modified by:   yongze-chen
-* @Last Modified time: 2018-06-19 16:27:08
+* @Last Modified by:   liyue2018
+* @Last Modified time: 2018-09-09 17:30:39
 */
 // webpack 是基于node，支持node语法
 const path = require('path')
@@ -41,8 +41,6 @@ module.exports = {
             { test:/\.(ttf|woff|woff2|svg|eot)$/, use: 'url-loader'},// 处理字体文件
             { test:/\.js$/, use: 'babel-loader', exclude: /node_modules/},
             // 配置Babel 来转换高级的ES语法
-            // exclude 需要排除第三方库，否则速度很慢
-            { test:/\.vue$/, use: 'vue-loader'},// 处理 .vue 的loader 的配置文件
         ]
     }
 }
